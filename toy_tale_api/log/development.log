@@ -1110,3 +1110,1327 @@ Processing by Api::V1::ToysController#index as */*
 Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.2ms | Allocations: 1654)
 
 
+Started GET "/api/v1/toys" for ::1 at 2020-11-19 06:42:38 -0600
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Api::V1::ToysController#index as */*
+  [1m[36mApi::V1::Toy Load (0.3ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys"[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 8.7ms | ActiveRecord: 0.7ms | Allocations: 5778)
+
+
+Started GET "/api/v1/toys" for ::1 at 2020-11-19 06:48:59 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::ToysController#index as */*
+  [1m[36mApi::V1::Toy Load (0.3ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys"[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.3ms | Allocations: 1684)
+
+
+Started GET "/api/v1/toys" for ::1 at 2020-11-19 06:52:45 -0600
+Processing by Api::V1::ToysController#index as */*
+  [1m[36mApi::V1::Toy Load (0.3ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys"[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.3ms | Allocations: 1670)
+
+
+Started GET "/api/v1/toys" for ::1 at 2020-11-19 06:53:14 -0600
+Processing by Api::V1::ToysController#index as */*
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys"[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:5:in `index'
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.1ms | Allocations: 1670)
+
+
+Started GET "/api/v1/toys" for ::1 at 2020-11-19 06:53:47 -0600
+Processing by Api::V1::ToysController#index as */*
+  [1m[36mApi::V1::Toy Load (0.2ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys"[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:5:in `index'
+Completed 200 OK in 16ms (Views: 16.0ms | ActiveRecord: 0.2ms | Allocations: 1671)
+
+
+Started GET "/api/v1/toys" for ::1 at 2020-11-19 06:54:06 -0600
+Processing by Api::V1::ToysController#index as */*
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys"[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:5:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.1ms | Allocations: 1654)
+
+
+Started GET "/api/v1/toys" for ::1 at 2020-11-19 06:54:20 -0600
+Processing by Api::V1::ToysController#index as */*
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys"[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:5:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms | Allocations: 1654)
+
+
+Started GET "/api/v1/toys" for ::1 at 2020-11-19 06:58:54 -0600
+Processing by Api::V1::ToysController#index as */*
+  [1m[36mApi::V1::Toy Load (0.2ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys"[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.2ms | Allocations: 1655)
+
+
+Started GET "/api/v1/toys" for ::1 at 2020-11-19 07:06:16 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::ToysController#index as */*
+  [1m[36mApi::V1::Toy Load (0.2ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys"[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:5:in `index'
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.2ms | Allocations: 5123)
+
+
+Started PATCH "/api/v1/toys/4" for ::1 at 2020-11-19 07:06:18 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"4"}
+  [1m[36mApi::V1::Toy Load (0.2ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:11:in `update'
+  [1m[36mApi::V1::Toy Update (0.5ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 5], ["updated_at", "2020-11-19 13:07:29.066107"], ["id", 4]]
+  ↳ app/controllers/api/v1/toys_controller.rb:11:in `update'
+  [1m[35m (7.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:11:in `update'
+Completed 200 OK in 70592ms (Views: 0.3ms | ActiveRecord: 8.4ms | Allocations: 58651)
+
+
+Started GET "/api/v1/toys" for ::1 at 2020-11-19 07:09:43 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::ToysController#index as */*
+  [1m[36mApi::V1::Toy Load (0.3ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys"[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:5:in `index'
+Completed 200 OK in 12ms (Views: 9.0ms | ActiveRecord: 0.9ms | Allocations: 5464)
+
+
+Started PATCH "/api/v1/toys/4" for ::1 at 2020-11-19 07:09:45 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"4"}
+  [1m[36mApi::V1::Toy Load (0.2ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.3ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 6], ["updated_at", "2020-11-19 13:09:45.643722"], ["id", 4]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (8.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 18ms (Views: 0.3ms | ActiveRecord: 8.7ms | Allocations: 5074)
+
+
+Started PATCH "/api/v1/toys/4" for ::1 at 2020-11-19 07:09:46 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"4"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.3ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 7], ["updated_at", "2020-11-19 13:09:46.308476"], ["id", 4]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (8.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 18ms (Views: 0.5ms | ActiveRecord: 9.1ms | Allocations: 4900)
+
+
+Started PATCH "/api/v1/toys/4" for ::1 at 2020-11-19 07:09:46 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"4"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.3ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 8], ["updated_at", "2020-11-19 13:09:46.543219"], ["id", 4]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (7.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 15ms (Views: 0.2ms | ActiveRecord: 8.3ms | Allocations: 4896)
+
+
+Started PATCH "/api/v1/toys/4" for ::1 at 2020-11-19 07:09:46 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"4"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.2ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 9], ["updated_at", "2020-11-19 13:09:46.712518"], ["id", 4]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (8.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 16ms (Views: 0.2ms | ActiveRecord: 9.0ms | Allocations: 4896)
+
+
+Started PATCH "/api/v1/toys/4" for ::1 at 2020-11-19 07:09:46 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"4"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.2ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 10], ["updated_at", "2020-11-19 13:09:46.881122"], ["id", 4]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (7.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 15ms (Views: 0.2ms | ActiveRecord: 8.3ms | Allocations: 4880)
+
+
+Started PATCH "/api/v1/toys/4" for ::1 at 2020-11-19 07:09:47 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"4"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.2ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 11], ["updated_at", "2020-11-19 13:09:47.074979"], ["id", 4]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (8.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 15ms (Views: 0.3ms | ActiveRecord: 8.4ms | Allocations: 4897)
+
+
+Started PATCH "/api/v1/toys/3" for ::1 at 2020-11-19 07:09:47 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.3ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 4], ["updated_at", "2020-11-19 13:09:47.762046"], ["id", 3]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (15.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 23ms (Views: 0.3ms | ActiveRecord: 16.2ms | Allocations: 4308)
+
+
+Started PATCH "/api/v1/toys/3" for ::1 at 2020-11-19 07:09:47 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.3ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 5], ["updated_at", "2020-11-19 13:09:47.920012"], ["id", 3]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (7.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 16ms (Views: 0.3ms | ActiveRecord: 8.4ms | Allocations: 4896)
+
+
+Started PATCH "/api/v1/toys/3" for ::1 at 2020-11-19 07:09:48 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.3ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 6], ["updated_at", "2020-11-19 13:09:48.088858"], ["id", 3]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (10.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 18ms (Views: 0.4ms | ActiveRecord: 10.6ms | Allocations: 4897)
+
+
+Started PATCH "/api/v1/toys/3" for ::1 at 2020-11-19 07:09:48 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mApi::V1::Toy Load (0.2ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.3ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 7], ["updated_at", "2020-11-19 13:09:48.256959"], ["id", 3]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (8.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 15ms (Views: 0.3ms | ActiveRecord: 9.3ms | Allocations: 4301)
+
+
+Started PATCH "/api/v1/toys/3" for ::1 at 2020-11-19 07:09:48 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.2ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 8], ["updated_at", "2020-11-19 13:09:48.420479"], ["id", 3]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (7.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 15ms (Views: 0.6ms | ActiveRecord: 8.2ms | Allocations: 4896)
+
+
+Started PATCH "/api/v1/toys/3" for ::1 at 2020-11-19 07:09:48 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.2ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 9], ["updated_at", "2020-11-19 13:09:48.580233"], ["id", 3]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (7.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 16ms (Views: 0.4ms | ActiveRecord: 8.2ms | Allocations: 4900)
+
+
+Started PATCH "/api/v1/toys/3" for ::1 at 2020-11-19 07:09:48 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.2ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 10], ["updated_at", "2020-11-19 13:09:48.749738"], ["id", 3]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (8.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 15ms (Views: 0.2ms | ActiveRecord: 8.4ms | Allocations: 4896)
+
+
+Started PATCH "/api/v1/toys/3" for ::1 at 2020-11-19 07:09:48 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.2ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 11], ["updated_at", "2020-11-19 13:09:48.927311"], ["id", 3]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (8.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 17ms (Views: 0.2ms | ActiveRecord: 9.2ms | Allocations: 4897)
+
+
+Started PATCH "/api/v1/toys/3" for ::1 at 2020-11-19 07:09:49 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.2ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 12], ["updated_at", "2020-11-19 13:09:49.055671"], ["id", 3]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (6.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 16ms (Views: 0.3ms | ActiveRecord: 6.8ms | Allocations: 4897)
+
+
+Started PATCH "/api/v1/toys/3" for ::1 at 2020-11-19 07:09:51 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.2ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 13], ["updated_at", "2020-11-19 13:09:51.060447"], ["id", 3]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (9.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 16ms (Views: 0.2ms | ActiveRecord: 9.4ms | Allocations: 4902)
+
+
+Started PATCH "/api/v1/toys/3" for ::1 at 2020-11-19 07:09:51 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.2ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 14], ["updated_at", "2020-11-19 13:09:51.230028"], ["id", 3]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (7.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 14ms (Views: 0.4ms | ActiveRecord: 8.2ms | Allocations: 4896)
+
+
+Started PATCH "/api/v1/toys/3" for ::1 at 2020-11-19 07:09:51 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.2ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 15], ["updated_at", "2020-11-19 13:09:51.390675"], ["id", 3]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (7.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 15ms (Views: 0.4ms | ActiveRecord: 7.8ms | Allocations: 4897)
+
+
+Started PATCH "/api/v1/toys/3" for ::1 at 2020-11-19 07:09:51 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mApi::V1::Toy Load (0.4ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.2ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 16], ["updated_at", "2020-11-19 13:09:51.552925"], ["id", 3]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (7.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 14ms (Views: 0.2ms | ActiveRecord: 8.0ms | Allocations: 4896)
+
+
+Started PATCH "/api/v1/toys/3" for ::1 at 2020-11-19 07:09:51 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.2ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 17], ["updated_at", "2020-11-19 13:09:51.720746"], ["id", 3]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (7.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 14ms (Views: 0.2ms | ActiveRecord: 7.9ms | Allocations: 4896)
+
+
+Started PATCH "/api/v1/toys/3" for ::1 at 2020-11-19 07:09:51 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.2ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 18], ["updated_at", "2020-11-19 13:09:51.908825"], ["id", 3]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (7.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 15ms (Views: 0.2ms | ActiveRecord: 8.2ms | Allocations: 4896)
+
+
+Started PATCH "/api/v1/toys/3" for ::1 at 2020-11-19 07:09:52 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mApi::V1::Toy Load (0.3ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.9ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 19], ["updated_at", "2020-11-19 13:09:52.167094"], ["id", 3]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (10.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 21ms (Views: 0.3ms | ActiveRecord: 11.4ms | Allocations: 4298)
+
+
+Started PATCH "/api/v1/toys/3" for ::1 at 2020-11-19 07:09:52 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.2ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 20], ["updated_at", "2020-11-19 13:09:52.358505"], ["id", 3]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (6.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 17ms (Views: 0.3ms | ActiveRecord: 6.5ms | Allocations: 4897)
+
+
+Started PATCH "/api/v1/toys/3" for ::1 at 2020-11-19 07:09:59 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.2ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 21], ["updated_at", "2020-11-19 13:09:59.246012"], ["id", 3]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (8.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 17ms (Views: 0.4ms | ActiveRecord: 8.8ms | Allocations: 4897)
+
+
+Started PATCH "/api/v1/toys/3" for ::1 at 2020-11-19 07:09:59 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.3ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 22], ["updated_at", "2020-11-19 13:09:59.386904"], ["id", 3]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (7.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 17ms (Views: 0.4ms | ActiveRecord: 8.1ms | Allocations: 4897)
+
+
+Started PATCH "/api/v1/toys/3" for ::1 at 2020-11-19 07:09:59 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mApi::V1::Toy Load (0.2ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.2ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 23], ["updated_at", "2020-11-19 13:09:59.549579"], ["id", 3]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (8.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 18ms (Views: 0.3ms | ActiveRecord: 9.4ms | Allocations: 4896)
+
+
+Started PATCH "/api/v1/toys/3" for ::1 at 2020-11-19 07:09:59 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.3ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 24], ["updated_at", "2020-11-19 13:09:59.716604"], ["id", 3]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (9.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 18ms (Views: 0.4ms | ActiveRecord: 9.5ms | Allocations: 4897)
+
+
+Started PATCH "/api/v1/toys/3" for ::1 at 2020-11-19 07:09:59 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mApi::V1::Toy Load (0.2ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.3ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 25], ["updated_at", "2020-11-19 13:09:59.879322"], ["id", 3]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (12.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 21ms (Views: 0.3ms | ActiveRecord: 12.6ms | Allocations: 4896)
+
+
+Started PATCH "/api/v1/toys/3" for ::1 at 2020-11-19 07:10:00 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.2ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 26], ["updated_at", "2020-11-19 13:10:00.051975"], ["id", 3]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (8.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 17ms (Views: 0.3ms | ActiveRecord: 9.3ms | Allocations: 4896)
+
+
+Started PATCH "/api/v1/toys/3" for ::1 at 2020-11-19 07:10:00 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.2ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 27], ["updated_at", "2020-11-19 13:10:00.233119"], ["id", 3]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (9.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 17ms (Views: 0.4ms | ActiveRecord: 9.8ms | Allocations: 4896)
+
+
+Started PATCH "/api/v1/toys/3" for ::1 at 2020-11-19 07:10:00 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.2ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 28], ["updated_at", "2020-11-19 13:10:00.395051"], ["id", 3]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (8.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 19ms (Views: 0.5ms | ActiveRecord: 8.9ms | Allocations: 4896)
+
+
+Started PATCH "/api/v1/toys/3" for ::1 at 2020-11-19 07:10:00 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.2ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 29], ["updated_at", "2020-11-19 13:10:00.559994"], ["id", 3]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (12.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 21ms (Views: 0.4ms | ActiveRecord: 13.3ms | Allocations: 4897)
+
+
+Started PATCH "/api/v1/toys/3" for ::1 at 2020-11-19 07:10:00 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mApi::V1::Toy Load (0.2ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.3ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 30], ["updated_at", "2020-11-19 13:10:00.742254"], ["id", 3]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (7.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 16ms (Views: 0.4ms | ActiveRecord: 7.7ms | Allocations: 4897)
+
+
+Started PATCH "/api/v1/toys/3" for ::1 at 2020-11-19 07:10:00 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.2ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 31], ["updated_at", "2020-11-19 13:10:00.915078"], ["id", 3]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (15.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 23ms (Views: 0.2ms | ActiveRecord: 15.3ms | Allocations: 4897)
+
+
+Started PATCH "/api/v1/toys/3" for ::1 at 2020-11-19 07:10:01 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.3ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 32], ["updated_at", "2020-11-19 13:10:01.079203"], ["id", 3]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (7.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 18ms (Views: 0.3ms | ActiveRecord: 8.4ms | Allocations: 4897)
+
+
+Started PATCH "/api/v1/toys/3" for ::1 at 2020-11-19 07:10:01 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mApi::V1::Toy Load (0.2ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.2ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 33], ["updated_at", "2020-11-19 13:10:01.245688"], ["id", 3]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (8.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 17ms (Views: 0.4ms | ActiveRecord: 8.4ms | Allocations: 4897)
+
+
+Started PATCH "/api/v1/toys/2" for ::1 at 2020-11-19 07:10:02 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.2ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 9], ["updated_at", "2020-11-19 13:10:02.124748"], ["id", 2]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (6.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 15ms (Views: 0.2ms | ActiveRecord: 7.0ms | Allocations: 4896)
+
+
+Started PATCH "/api/v1/toys/2" for ::1 at 2020-11-19 07:10:02 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.3ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 10], ["updated_at", "2020-11-19 13:10:02.277469"], ["id", 2]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (8.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 19ms (Views: 0.4ms | ActiveRecord: 8.5ms | Allocations: 4896)
+
+
+Started PATCH "/api/v1/toys/2" for ::1 at 2020-11-19 07:10:02 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.3ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 11], ["updated_at", "2020-11-19 13:10:02.466991"], ["id", 2]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (9.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 17ms (Views: 0.4ms | ActiveRecord: 9.7ms | Allocations: 4896)
+
+
+Started PATCH "/api/v1/toys/2" for ::1 at 2020-11-19 07:10:02 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mApi::V1::Toy Load (0.2ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.4ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 12], ["updated_at", "2020-11-19 13:10:02.638721"], ["id", 2]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (7.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 19ms (Views: 0.2ms | ActiveRecord: 8.5ms | Allocations: 4897)
+
+
+Started PATCH "/api/v1/toys/2" for ::1 at 2020-11-19 07:10:02 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.3ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 13], ["updated_at", "2020-11-19 13:10:02.803205"], ["id", 2]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (8.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 17ms (Views: 0.2ms | ActiveRecord: 8.6ms | Allocations: 4897)
+
+
+Started PATCH "/api/v1/toys/2" for ::1 at 2020-11-19 07:10:02 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.2ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 14], ["updated_at", "2020-11-19 13:10:02.978976"], ["id", 2]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (8.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 18ms (Views: 0.3ms | ActiveRecord: 8.7ms | Allocations: 4897)
+
+
+Started PATCH "/api/v1/toys/2" for ::1 at 2020-11-19 07:10:03 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.3ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 15], ["updated_at", "2020-11-19 13:10:03.147457"], ["id", 2]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (8.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 17ms (Views: 0.4ms | ActiveRecord: 8.7ms | Allocations: 4897)
+
+
+Started PATCH "/api/v1/toys/2" for ::1 at 2020-11-19 07:10:03 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.3ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 16], ["updated_at", "2020-11-19 13:10:03.317212"], ["id", 2]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (9.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 18ms (Views: 0.3ms | ActiveRecord: 10.4ms | Allocations: 4896)
+
+
+Started PATCH "/api/v1/toys/2" for ::1 at 2020-11-19 07:10:03 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.3ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 17], ["updated_at", "2020-11-19 13:10:03.466644"], ["id", 2]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (7.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 16ms (Views: 0.3ms | ActiveRecord: 7.8ms | Allocations: 4897)
+
+
+Started PATCH "/api/v1/toys/1" for ::1 at 2020-11-19 07:10:04 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mApi::V1::Toy Load (0.2ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.4ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 6], ["updated_at", "2020-11-19 13:10:04.360838"], ["id", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (8.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 19ms (Views: 0.5ms | ActiveRecord: 9.3ms | Allocations: 4298)
+
+
+Started PATCH "/api/v1/toys/1" for ::1 at 2020-11-19 07:10:04 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mApi::V1::Toy Load (0.2ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.3ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 7], ["updated_at", "2020-11-19 13:10:04.521948"], ["id", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (14.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 25ms (Views: 0.4ms | ActiveRecord: 14.6ms | Allocations: 4896)
+
+
+Started PATCH "/api/v1/toys/1" for ::1 at 2020-11-19 07:10:04 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mApi::V1::Toy Load (0.2ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.3ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 8], ["updated_at", "2020-11-19 13:10:04.683607"], ["id", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (8.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 21ms (Views: 0.2ms | ActiveRecord: 8.9ms | Allocations: 4897)
+
+
+Started PATCH "/api/v1/toys/1" for ::1 at 2020-11-19 07:10:04 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.5ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 9], ["updated_at", "2020-11-19 13:10:04.842770"], ["id", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (10.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 20ms (Views: 0.2ms | ActiveRecord: 11.2ms | Allocations: 3992)
+
+
+Started PATCH "/api/v1/toys/1" for ::1 at 2020-11-19 07:10:04 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.3ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 10], ["updated_at", "2020-11-19 13:10:04.998759"], ["id", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (8.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 17ms (Views: 0.4ms | ActiveRecord: 9.2ms | Allocations: 4897)
+
+
+Started PATCH "/api/v1/toys/1" for ::1 at 2020-11-19 07:10:05 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.5ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 11], ["updated_at", "2020-11-19 13:10:05.157268"], ["id", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (8.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 18ms (Views: 0.3ms | ActiveRecord: 9.4ms | Allocations: 4897)
+
+
+Started PATCH "/api/v1/toys/1" for ::1 at 2020-11-19 07:10:05 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.3ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 12], ["updated_at", "2020-11-19 13:10:05.396946"], ["id", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (8.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 17ms (Views: 0.3ms | ActiveRecord: 9.0ms | Allocations: 4897)
+
+
+Started PATCH "/api/v1/toys/1" for ::1 at 2020-11-19 07:10:05 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.4ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 13], ["updated_at", "2020-11-19 13:10:05.592962"], ["id", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (8.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 18ms (Views: 0.4ms | ActiveRecord: 9.1ms | Allocations: 4896)
+
+
+Started PATCH "/api/v1/toys/1" for ::1 at 2020-11-19 07:10:05 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[36mApi::V1::Toy Update (0.3ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 14], ["updated_at", "2020-11-19 13:10:05.741555"], ["id", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+  [1m[35m (7.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:10:in `update'
+Completed 200 OK in 15ms (Views: 0.3ms | ActiveRecord: 8.0ms | Allocations: 4880)
+
+
+Started GET "/api/v1/toys" for ::1 at 2020-11-19 07:17:40 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::ToysController#index as */*
+  [1m[36mApi::V1::Toy Load (0.4ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys"[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.4ms | Allocations: 1674)
+
+
+Started GET "/api/v1/toys" for ::1 at 2020-11-19 07:18:14 -0600
+Processing by Api::V1::ToysController#index as */*
+  [1m[36mApi::V1::Toy Load (0.2ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys"[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.2ms | Allocations: 1654)
+
+
+Started GET "/api/v1/toys" for ::1 at 2020-11-19 07:19:06 -0600
+Processing by Api::V1::ToysController#index as */*
+  [1m[36mApi::V1::Toy Load (0.2ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys"[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.2ms | Allocations: 1654)
+
+
+Started GET "/api/v1/toys" for ::1 at 2020-11-19 07:19:30 -0600
+Processing by Api::V1::ToysController#index as */*
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys"[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:5:in `index'
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.1ms | Allocations: 1655)
+
+
+Started GET "/api/v1/toys" for ::1 at 2020-11-19 07:20:17 -0600
+Processing by Api::V1::ToysController#index as */*
+  [1m[36mApi::V1::Toy Load (0.2ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys"[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.2ms | Allocations: 1654)
+
+
+Started GET "/api/v1/toys" for ::1 at 2020-11-19 07:22:12 -0600
+Processing by Api::V1::ToysController#index as */*
+  [1m[36mApi::V1::Toy Load (0.5ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys"[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 3.6ms | ActiveRecord: 0.5ms | Allocations: 1654)
+
+
+Started GET "/api/v1/toys" for ::1 at 2020-11-19 07:27:12 -0600
+Processing by Api::V1::ToysController#index as */*
+  [1m[36mApi::V1::Toy Load (0.2ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys"[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:5:in `index'
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.2ms | Allocations: 1655)
+
+
+Started GET "/api/v1/toys" for ::1 at 2020-11-19 07:36:29 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::ToysController#index as */*
+  [1m[36mApi::V1::Toy Load (0.2ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys"[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:5:in `index'
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.2ms | Allocations: 5122)
+
+
+Started GET "/api/v1/toys" for ::1 at 2020-11-19 07:36:30 -0600
+Processing by Api::V1::ToysController#index as */*
+  [1m[36mApi::V1::Toy Load (0.2ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys"[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:5:in `index'
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.2ms | Allocations: 1654)
+
+
+Started POST "/api/v1/toys" for ::1 at 2020-11-19 07:36:35 -0600
+Processing by Api::V1::ToysController#create as JSON
+  Parameters: {"name"=>"test", "image"=>"123", "toy"=>{"name"=>"test", "image"=>"123"}}
+Completed 204 No Content in 126270ms (ActiveRecord: 0.0ms | Allocations: 1644)
+
+
+Started GET "/api/v1/toys" for ::1 at 2020-11-19 07:38:41 -0600
+Processing by Api::V1::ToysController#index as */*
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys"[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:5:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms | Allocations: 1654)
+
+
+Started GET "/api/v1/toys" for ::1 at 2020-11-19 07:38:47 -0600
+Processing by Api::V1::ToysController#index as */*
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys"[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:5:in `index'
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.1ms | Allocations: 1655)
+
+
+Started POST "/api/v1/toys" for ::1 at 2020-11-19 07:39:00 -0600
+Processing by Api::V1::ToysController#create as JSON
+  Parameters: {"name"=>"test", "image"=>"123", "toy"=>{"name"=>"test", "image"=>"123"}}
+Completed 204 No Content in 138166ms (ActiveRecord: 0.0ms | Allocations: 1796)
+
+
+Started GET "/api/v1/toys" for ::1 at 2020-11-19 07:41:46 -0600
+Started GET "/api/v1/toys" for ::1 at 2020-11-19 07:41:46 -0600
+Started GET "/api/v1/toys" for ::1 at 2020-11-19 07:41:46 -0600
+Started GET "/api/v1/toys" for ::1 at 2020-11-19 07:41:46 -0600
+Started GET "/api/v1/toys" for ::1 at 2020-11-19 07:41:46 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::ToysController#index as */*
+  [1m[36mApi::V1::Toy Load (0.2ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys"[0m
+Processing by Api::V1::ToysController#index as */*
+Processing by Api::V1::ToysController#index as */*
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::ToysController#index as */*
+  ↳ app/controllers/api/v1/toys_controller.rb:5:in `index'
+  [1m[36mApi::V1::Toy Load (0.4ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys"[0m
+Processing by Api::V1::ToysController#index as */*
+  [1m[36mApi::V1::Toy Load (0.4ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys"[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:5:in `index'
+  [1m[36mApi::V1::Toy Load (0.2ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys"[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:5:in `index'
+  ↳ app/controllers/api/v1/toys_controller.rb:5:in `index'
+Completed 200 OK in 19ms (Views: 18.1ms | ActiveRecord: 0.4ms | Allocations: 9312)
+
+
+Completed 200 OK in 22ms (Views: 20.0ms | ActiveRecord: 0.8ms | Allocations: 8613)
+
+
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.2ms | Allocations: 4159)
+
+
+Completed 200 OK in 24ms (Views: 23.5ms | ActiveRecord: 0.4ms | Allocations: 11942)
+
+
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys"[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:5:in `index'
+Completed 200 OK in 11ms (Views: 11.0ms | ActiveRecord: 0.1ms | Allocations: 6535)
+
+
+Started GET "/api/v1/toys" for ::1 at 2020-11-19 07:41:55 -0600
+Processing by Api::V1::ToysController#index as */*
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys"[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:5:in `index'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.1ms | Allocations: 1654)
+
+
+Started POST "/api/v1/toys" for ::1 at 2020-11-19 07:41:59 -0600
+Processing by Api::V1::ToysController#create as JSON
+  Parameters: {"name"=>"test", "image"=>"123", "toy"=>{"name"=>"test", "image"=>"123"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `create'
+  [1m[36mApi::V1::Toy Create (1.1ms)[0m  [1m[32mINSERT INTO "api_v1_toys" ("name", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "test"], ["image", "123"], ["created_at", "2020-11-19 13:41:59.565629"], ["updated_at", "2020-11-19 13:41:59.565629"]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `create'
+  [1m[35m (6.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `create'
+Completed 200 OK in 16ms (Views: 0.2ms | ActiveRecord: 8.0ms | Allocations: 4396)
+
+
+Started GET "/api/v1/toys" for ::1 at 2020-11-19 07:43:01 -0600
+Processing by Api::V1::ToysController#index as */*
+  [1m[36mApi::V1::Toy Load (0.3ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys"[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:5:in `index'
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.3ms | Allocations: 1761)
+
+
+Started GET "/api/v1/toys" for ::1 at 2020-11-19 07:43:29 -0600
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::ToysController#index as */*
+  [1m[36mApi::V1::Toy Load (0.2ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys"[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:5:in `index'
+Completed 200 OK in 14ms (Views: 7.2ms | ActiveRecord: 0.6ms | Allocations: 5615)
+
+
+Started POST "/api/v1/toys" for ::1 at 2020-11-19 07:43:39 -0600
+Processing by Api::V1::ToysController#create as JSON
+  Parameters: {"name"=>"charmander", "image"=>"whatever", "toy"=>{"name"=>"charmander", "image"=>"whatever"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `create'
+  [1m[36mApi::V1::Toy Create (0.3ms)[0m  [1m[32mINSERT INTO "api_v1_toys" ("name", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "charmander"], ["image", "whatever"], ["created_at", "2020-11-19 13:43:39.637852"], ["updated_at", "2020-11-19 13:43:39.637852"]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `create'
+  [1m[35m (6.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `create'
+Completed 200 OK in 15ms (Views: 0.2ms | ActiveRecord: 7.1ms | Allocations: 4388)
+
+
+Started PATCH "/api/v1/toys/10" for ::1 at 2020-11-19 07:43:46 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"10"}
+  [1m[36mApi::V1::Toy Load (0.2ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:16:in `update'
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.2ms | Allocations: 1284)
+
+
+  
+NoMethodError (undefined method `+' for nil:NilClass):
+  
+app/controllers/api/v1/toys_controller.rb:17:in `update'
+Started PATCH "/api/v1/toys/10" for ::1 at 2020-11-19 07:43:47 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"10"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:16:in `update'
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.1ms | Allocations: 1103)
+
+
+  
+NoMethodError (undefined method `+' for nil:NilClass):
+  
+app/controllers/api/v1/toys_controller.rb:17:in `update'
+Started PATCH "/api/v1/toys/10" for ::1 at 2020-11-19 07:43:47 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"10"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:16:in `update'
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.1ms | Allocations: 1102)
+
+
+  
+NoMethodError (undefined method `+' for nil:NilClass):
+  
+app/controllers/api/v1/toys_controller.rb:17:in `update'
+Started PATCH "/api/v1/toys/10" for ::1 at 2020-11-19 07:43:47 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"10"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:16:in `update'
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.1ms | Allocations: 1102)
+
+
+  
+NoMethodError (undefined method `+' for nil:NilClass):
+  
+app/controllers/api/v1/toys_controller.rb:17:in `update'
+Started PATCH "/api/v1/toys/10" for ::1 at 2020-11-19 07:43:48 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"10"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:16:in `update'
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.1ms | Allocations: 1102)
+
+
+  
+NoMethodError (undefined method `+' for nil:NilClass):
+  
+app/controllers/api/v1/toys_controller.rb:17:in `update'
+Started PATCH "/api/v1/toys/10" for ::1 at 2020-11-19 07:43:48 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"10"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:16:in `update'
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.1ms | Allocations: 1103)
+
+
+  
+NoMethodError (undefined method `+' for nil:NilClass):
+  
+app/controllers/api/v1/toys_controller.rb:17:in `update'
+Started PATCH "/api/v1/toys/10" for ::1 at 2020-11-19 07:43:48 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"10"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:16:in `update'
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.1ms | Allocations: 1102)
+
+
+  
+NoMethodError (undefined method `+' for nil:NilClass):
+  
+app/controllers/api/v1/toys_controller.rb:17:in `update'
+Started PATCH "/api/v1/toys/10" for ::1 at 2020-11-19 07:43:48 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"10"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:16:in `update'
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.1ms | Allocations: 1102)
+
+
+  
+NoMethodError (undefined method `+' for nil:NilClass):
+  
+app/controllers/api/v1/toys_controller.rb:17:in `update'
+Started PATCH "/api/v1/toys/10" for ::1 at 2020-11-19 07:44:15 -0600
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"10"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:17:in `update'
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.7ms | Allocations: 5059)
+
+
+  
+NoMethodError (undefined method `+' for nil:NilClass):
+  
+app/controllers/api/v1/toys_controller.rb:18:in `update'
+Started GET "/api/v1/toys" for ::1 at 2020-11-19 07:44:16 -0600
+Processing by Api::V1::ToysController#index as */*
+  [1m[36mApi::V1::Toy Load (0.4ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys"[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:5:in `index'
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.4ms | Allocations: 1894)
+
+
+Started POST "/api/v1/toys" for ::1 at 2020-11-19 07:44:23 -0600
+Processing by Api::V1::ToysController#create as JSON
+  Parameters: {"name"=>"charmander", "image"=>"123", "toy"=>{"name"=>"charmander", "image"=>"123"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `create'
+  [1m[36mApi::V1::Toy Create (0.4ms)[0m  [1m[32mINSERT INTO "api_v1_toys" ("name", "image", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "charmander"], ["image", "123"], ["created_at", "2020-11-19 13:44:23.435539"], ["updated_at", "2020-11-19 13:44:23.435539"]]
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `create'
+  [1m[35m (6.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:9:in `create'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:11:in `create'
+  [1m[36mApi::V1::Toy Update (0.9ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 0], ["updated_at", "2020-11-19 13:44:23.449782"], ["id", 11]]
+  ↳ app/controllers/api/v1/toys_controller.rb:11:in `create'
+  [1m[35m (8.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:11:in `create'
+Completed 200 OK in 32ms (Views: 0.2ms | ActiveRecord: 16.2ms | Allocations: 7871)
+
+
+Started PATCH "/api/v1/toys/11" for ::1 at 2020-11-19 07:44:25 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"11"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:17:in `update'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:18:in `update'
+  [1m[36mApi::V1::Toy Update (2.1ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 1], ["updated_at", "2020-11-19 13:44:25.112317"], ["id", 11]]
+  ↳ app/controllers/api/v1/toys_controller.rb:18:in `update'
+  [1m[35m (6.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:18:in `update'
+Completed 200 OK in 16ms (Views: 0.2ms | ActiveRecord: 8.7ms | Allocations: 4895)
+
+
+Started PATCH "/api/v1/toys/11" for ::1 at 2020-11-19 07:44:25 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"11"}
+  [1m[36mApi::V1::Toy Load (0.2ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:17:in `update'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:18:in `update'
+  [1m[36mApi::V1::Toy Update (0.3ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 2], ["updated_at", "2020-11-19 13:44:25.509160"], ["id", 11]]
+  ↳ app/controllers/api/v1/toys_controller.rb:18:in `update'
+  [1m[35m (9.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:18:in `update'
+Completed 200 OK in 16ms (Views: 0.2ms | ActiveRecord: 9.5ms | Allocations: 4895)
+
+
+Started PATCH "/api/v1/toys/11" for ::1 at 2020-11-19 07:44:25 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"11"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:17:in `update'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:18:in `update'
+  [1m[36mApi::V1::Toy Update (0.3ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 3], ["updated_at", "2020-11-19 13:44:25.679171"], ["id", 11]]
+  ↳ app/controllers/api/v1/toys_controller.rb:18:in `update'
+  [1m[35m (7.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:18:in `update'
+Completed 200 OK in 14ms (Views: 0.3ms | ActiveRecord: 7.9ms | Allocations: 4895)
+
+
+Started PATCH "/api/v1/toys/11" for ::1 at 2020-11-19 07:44:25 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"11"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:17:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:18:in `update'
+  [1m[36mApi::V1::Toy Update (0.3ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 4], ["updated_at", "2020-11-19 13:44:25.842368"], ["id", 11]]
+  ↳ app/controllers/api/v1/toys_controller.rb:18:in `update'
+  [1m[35m (7.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:18:in `update'
+Completed 200 OK in 15ms (Views: 0.2ms | ActiveRecord: 8.2ms | Allocations: 4895)
+
+
+Started PATCH "/api/v1/toys/11" for ::1 at 2020-11-19 07:44:26 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"11"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:17:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:18:in `update'
+  [1m[36mApi::V1::Toy Update (0.3ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 5], ["updated_at", "2020-11-19 13:44:26.004384"], ["id", 11]]
+  ↳ app/controllers/api/v1/toys_controller.rb:18:in `update'
+  [1m[35m (7.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:18:in `update'
+Completed 200 OK in 16ms (Views: 0.3ms | ActiveRecord: 8.4ms | Allocations: 4895)
+
+
+Started PATCH "/api/v1/toys/11" for ::1 at 2020-11-19 07:44:26 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"11"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:17:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:18:in `update'
+  [1m[36mApi::V1::Toy Update (0.3ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 6], ["updated_at", "2020-11-19 13:44:26.163079"], ["id", 11]]
+  ↳ app/controllers/api/v1/toys_controller.rb:18:in `update'
+  [1m[35m (11.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:18:in `update'
+Completed 200 OK in 20ms (Views: 0.2ms | ActiveRecord: 12.3ms | Allocations: 4895)
+
+
+Started PATCH "/api/v1/toys/11" for ::1 at 2020-11-19 07:44:26 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"11"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:17:in `update'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:18:in `update'
+  [1m[36mApi::V1::Toy Update (0.2ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 7], ["updated_at", "2020-11-19 13:44:26.341417"], ["id", 11]]
+  ↳ app/controllers/api/v1/toys_controller.rb:18:in `update'
+  [1m[35m (9.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:18:in `update'
+Completed 200 OK in 18ms (Views: 0.3ms | ActiveRecord: 9.5ms | Allocations: 4305)
+
+
+Started PATCH "/api/v1/toys/11" for ::1 at 2020-11-19 07:44:26 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"11"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:17:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:18:in `update'
+  [1m[36mApi::V1::Toy Update (0.2ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 8], ["updated_at", "2020-11-19 13:44:26.520282"], ["id", 11]]
+  ↳ app/controllers/api/v1/toys_controller.rb:18:in `update'
+  [1m[35m (8.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:18:in `update'
+Completed 200 OK in 15ms (Views: 0.3ms | ActiveRecord: 8.6ms | Allocations: 4304)
+
+
+Started PATCH "/api/v1/toys/11" for ::1 at 2020-11-19 07:44:26 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"11"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:17:in `update'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:18:in `update'
+  [1m[36mApi::V1::Toy Update (0.2ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 9], ["updated_at", "2020-11-19 13:44:26.703150"], ["id", 11]]
+  ↳ app/controllers/api/v1/toys_controller.rb:18:in `update'
+  [1m[35m (7.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:18:in `update'
+Completed 200 OK in 13ms (Views: 0.2ms | ActiveRecord: 7.7ms | Allocations: 4298)
+
+
+Started PATCH "/api/v1/toys/11" for ::1 at 2020-11-19 07:44:26 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"11"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:17:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:18:in `update'
+  [1m[36mApi::V1::Toy Update (0.2ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 10], ["updated_at", "2020-11-19 13:44:26.882909"], ["id", 11]]
+  ↳ app/controllers/api/v1/toys_controller.rb:18:in `update'
+  [1m[35m (8.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:18:in `update'
+Completed 200 OK in 15ms (Views: 0.2ms | ActiveRecord: 8.6ms | Allocations: 4895)
+
+
+Started PATCH "/api/v1/toys/11" for ::1 at 2020-11-19 07:44:27 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"11"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:17:in `update'
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:18:in `update'
+  [1m[36mApi::V1::Toy Update (0.3ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 11], ["updated_at", "2020-11-19 13:44:27.041755"], ["id", 11]]
+  ↳ app/controllers/api/v1/toys_controller.rb:18:in `update'
+  [1m[35m (8.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:18:in `update'
+Completed 200 OK in 14ms (Views: 0.2ms | ActiveRecord: 8.5ms | Allocations: 4300)
+
+
+Started PATCH "/api/v1/toys/11" for ::1 at 2020-11-19 07:44:27 -0600
+Processing by Api::V1::ToysController#update as */*
+  Parameters: {"id"=>"11"}
+  [1m[36mApi::V1::Toy Load (0.1ms)[0m  [1m[34mSELECT "api_v1_toys".* FROM "api_v1_toys" WHERE "api_v1_toys"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/toys_controller.rb:17:in `update'
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:18:in `update'
+  [1m[36mApi::V1::Toy Update (0.3ms)[0m  [1m[33mUPDATE "api_v1_toys" SET "likes" = ?, "updated_at" = ? WHERE "api_v1_toys"."id" = ?[0m  [["likes", 12], ["updated_at", "2020-11-19 13:44:27.213760"], ["id", 11]]
+  ↳ app/controllers/api/v1/toys_controller.rb:18:in `update'
+  [1m[35m (7.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/api/v1/toys_controller.rb:18:in `update'
+Completed 200 OK in 15ms (Views: 0.2ms | ActiveRecord: 8.2ms | Allocations: 4895)
+
+
